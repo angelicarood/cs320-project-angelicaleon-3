@@ -1,11 +1,7 @@
 package org.acme;
 
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.POST;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.PathParam;
 
 @Path("/hello")
 public class GreetingResource {
@@ -19,12 +15,10 @@ public class GreetingResource {
     @Path("/personalized/{name}")
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String personalizedHello(@PathParam("name") String name) {
-        return "Hello " + name;
-    }
+    public String personalizedHello(@PathParam("name") String name) { return "Hello " + name;}
 
     @POST
-    @Path("/personalized")
+    @Path("personalized")
     @Produces(MediaType.TEXT_PLAIN)
     public String personalizedHelloPost(Person p) {
         return "Hello " + p.getFirst() + " " + p.getLast();
@@ -52,3 +46,4 @@ public class GreetingResource {
     }
 
 }
+

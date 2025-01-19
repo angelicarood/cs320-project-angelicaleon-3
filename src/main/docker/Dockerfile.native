@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/cs320-project-angelicaleon .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/cs320-project-honamigonda .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/cs320-project-angelicaleon
+# docker run -i --rm -p 8080:8080 quarkus/cs320-project-honamigonda
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.10

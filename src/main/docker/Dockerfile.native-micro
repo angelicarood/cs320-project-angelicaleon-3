@@ -10,11 +10,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/cs320-project-angelicaleon .
+# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/cs320-project-honamigonda .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/cs320-project-angelicaleon
+# docker run -i --rm -p 8080:8080 quarkus/cs320-project-honamigonda
 #
 ###
 FROM quay.io/quarkus/quarkus-micro-image:2.0
