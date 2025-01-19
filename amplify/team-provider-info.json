@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cs320projectangelica-dev-6e2e9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335528058:role/amplify-cs320projectangelica-dev-6e2e9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335528058:role/amplify-cs320projectangelica-dev-6e2e9-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-cs320projectangelica-dev-6e2e9-deployment",
+      "UnauthRoleName": "amplify-cs320projectangelica-dev-6e2e9-unauthRole",
+      "StackName": "amplify-cs320projectangelica-dev-6e2e9",
+      "StackId": "arn:aws:cloudformation:us-west-1:730335528058:stack/amplify-cs320projectangelica-dev-6e2e9/2b2b7910-d603-11ef-b0c6-0642c73a1c91",
+      "AmplifyAppId": "dief788kanff4"
+    }
+  }
+}
